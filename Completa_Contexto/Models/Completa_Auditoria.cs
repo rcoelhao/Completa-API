@@ -17,5 +17,7 @@ namespace Completa_Contexto.Models
         public string Aud_Obs { get; set; }
 
         public bool? Aud_Aprovado { get; set; }
+
+       
     }
 }
