@@ -11,5 +11,7 @@ namespace Completa_Contexto.Models
         public string Ct_Nome { get; set; }
 
         public string Ct_Texto { get; set; }
+
+        public int Ct_Contrato { get; set; }
     }
 }

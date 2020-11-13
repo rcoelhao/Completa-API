@@ -35,6 +35,22 @@ namespace Completa_Contexto.Controllers
             return Ok(completa_Autorizacao);
         }
 
+        // GET: api/Completa_Autorizacao/ByCli_Id/5
+        [HttpGet]
+        [Route("api/Completa_Autorizacao/ByCli_Id/{Cli_Id:int}")]
+        [ResponseType(typeof(Completa_Autorizacao))]
+        public IHttpActionResult Completa_AutorizacaoByCli_Id(int Cli_Id)
+        {
+            List<Completa_Autorizacao> completa_AutorizacaoList = db.Completa_Autorizacao
+                .Where(x => x.Cli_Id == Cli_Id).ToList();
+
+            if (completa_AutorizacaoList == null)
+            {
+                return NotFound();
+            }
+            return Ok(completa_AutorizacaoList);
+        }
+
         // PUT: api/Completa_Autorizacao/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutCompleta_Autorizacao(int id, Completa_Autorizacao completa_Autorizacao)
