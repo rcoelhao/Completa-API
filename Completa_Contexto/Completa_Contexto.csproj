@@ -185,7 +185,6 @@
     <Compile Include="Controllers\Completa_UnidadeController.cs" />
     <Compile Include="Controllers\DocController.cs" />
     <Compile Include="Models\Completa_Agendamento.cs" />
-    <Compile Include="Models\Completa_Assinatura.cs" />
     <Compile Include="Models\Completa_Assinaturas.cs" />
     <Compile Include="Models\Completa_Auditoria.cs" />
     <Compile Include="Models\Completa_Autorizacao.cs" />

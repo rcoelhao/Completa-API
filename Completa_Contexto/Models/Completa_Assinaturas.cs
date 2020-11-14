@@ -11,7 +11,7 @@ namespace Completa_Contexto.Models
         [Key]
         public int Ass_Id { get; set; }
 
-        public int? Cli_Id { get; set; }
+        public int Cli_Id { get; set; }
 
         [Column(TypeName = "image")]
         public byte[] Ass_image { get; set; }
