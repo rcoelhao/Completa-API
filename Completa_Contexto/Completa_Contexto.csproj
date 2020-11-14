@@ -170,6 +170,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\Completa_AgendamentoController.cs" />
+    <Compile Include="Controllers\Completa_Assinaturas1Controller.cs" />
     <Compile Include="Controllers\Completa_AuditoriaController.cs" />
     <Compile Include="Controllers\Completa_AutorizacaoController.cs" />
     <Compile Include="Controllers\Completa_ClientesController.cs" />
@@ -184,6 +185,8 @@
     <Compile Include="Controllers\Completa_UnidadeController.cs" />
     <Compile Include="Controllers\DocController.cs" />
     <Compile Include="Models\Completa_Agendamento.cs" />
+    <Compile Include="Models\Completa_Assinatura.cs" />
+    <Compile Include="Models\Completa_Assinaturas.cs" />
     <Compile Include="Models\Completa_Auditoria.cs" />
     <Compile Include="Models\Completa_Autorizacao.cs" />
     <Compile Include="Models\Completa_Contratos.cs" />

@@ -1,10 +1,7 @@
+using System.Data.Entity;
+
 namespace Completa_Contexto.Models
 {
-    using System;
-    using System.Data.Entity;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Linq;
-
     public partial class Completa_Contextoss : DbContext
     {
         public Completa_Contextoss()
