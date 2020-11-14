@@ -39,4 +39,7 @@
   <parameter name="Completa_Autorizacao-Web.config Connection String" description="Completa_Autorizacao A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="data source=ged.ckcgdeyvyfp8.us-west-1.rds.amazonaws.com,1433;initial catalog=DARCI;persist security info=True;user id=rcoelho;password=Ri1ju2bi3;multipleactiveresultsets=True;application name=EntityFramework" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Rodrigo\ Coelho\\source\\repos\\Completa\ Telecom\\GITHUB\ -\ Completa\ API\\Completa-API\\Completa_Contexto\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Completa_Autorizacao']/@connectionString" />
   </parameter>
+  <parameter name="Completa_Assinatura-Web.config Connection String" description="Completa_Assinatura A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="data source=ged.ckcgdeyvyfp8.us-west-1.rds.amazonaws.com,1433;initial catalog=DARCI;persist security info=True;user id=rcoelho;password=Ri1ju2bi3;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Rodrigo\ Coelho\\source\\repos\\Completa\ Telecom\\GITHUB\ -\ Completa\ API\\Completa-API\\Completa_Contexto\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Completa_Assinatura']/@connectionString" />
+  </parameter>
 </parameters>
