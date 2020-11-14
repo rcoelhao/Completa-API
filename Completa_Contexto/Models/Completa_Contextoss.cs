@@ -39,5 +39,8 @@ namespace Completa_Contexto.Models
         public System.Data.Entity.DbSet<Completa_Contexto.Models.Completa_Contratos> Completa_Contratos { get; set; }
 
         public System.Data.Entity.DbSet<Completa_Contexto.Models.Completa_Autorizacao> Completa_Autorizacao { get; set; }
+
+        public System.Data.Entity.DbSet<Completa_Contexto.Models.Completa_Assinaturas> Completa_Assinaturas { get; set; }
+
     }
 }
