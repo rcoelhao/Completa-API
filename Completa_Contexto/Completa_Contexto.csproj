@@ -59,6 +59,9 @@
       <HintPath>..\packages\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.2.0.0\lib\Net471\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -78,9 +81,6 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
     </Reference>
@@ -175,6 +175,7 @@
     <Compile Include="Controllers\Completa_ClientesController.cs" />
     <Compile Include="Controllers\Completa_ContratosController.cs" />
     <Compile Include="Controllers\Completa_DatasBloqueadasController.cs" />
+    <Compile Include="Controllers\Completa_AssinaturasController.cs" />
     <Compile Include="Controllers\Completa_DocumentosIDController.cs" />
     <Compile Include="Controllers\Completa_FeriadoController.cs" />
     <Compile Include="Controllers\Completa_FeriadoEstadualController.cs" />
@@ -188,6 +189,8 @@
     <Compile Include="Models\Completa_Contratos.cs" />
     <Compile Include="Models\Completa_DatasBloqueadas.cs" />
     <Compile Include="Controllers\Completa_DocumentosController.cs" />
+    <Compile Include="Models\Completa_Assinaturas.cs" />
+    <Compile Include="Models\Completa_AssinaturasDTO.cs" />
     <Compile Include="Models\Completa_DocumentosDTO.cs" />
     <Compile Include="Models\Completa_Feriado.cs" />
     <Compile Include="Models\Completa_FeriadoEstadual.cs" />
